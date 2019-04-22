@@ -4,6 +4,7 @@ Run the following command to execute the sample program through Maven
 
 mvn exec:java -Dexec.mainClass="com.jpm.report.App"
 
+<hr>
 Below is the sample report format
 
 ---------------- Report ----------------
@@ -18,7 +19,7 @@ bar(14904.45)<br>
 ---------------- Ranking of entities based on outgoing amount ----------------<br>
 foo(10025.00)<br>
 
-
+<hr>
 To build and execute the test cases run the following command
 
 mvn package 
